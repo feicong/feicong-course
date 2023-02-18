@@ -106,9 +106,9 @@ eBPF程序类型之Socket过滤器
 
 ## App隐私合规与安全分析探针实战课程
 
-<a href="https://mp.weixin.qq.com/s/s_t3hgfVGJcpxWFUHzkSfQ"><img height="400" width="600" alt="App隐私合规与安全分析探针实战课程" src="https://user-images.githubusercontent.com/1672927/218233737-11f75445-f892-4b2a-adb4-d172df495f9e.png"></a>
+<a href="https://mp.weixin.qq.com/s/s_t3hgfVGJcpxWFUHzkSfQ"><img height="400" width="600" alt="App隐私合规与安全分析探针实战课程" src="./App隐私合规与代码分析探针实战课程.jpg"></a>
 
-课程目录太过精彩，**完整App隐私合规与安全分析探针实战课程目录，见课程介绍7分钟处！**
+课程目录目前设计了第一与第二两季。**后续可能的第三与第四季的计划，可以见下面视频介绍第7分钟处！**
 
 <a href="https://mp.weixin.qq.com/s/s_t3hgfVGJcpxWFUHzkSfQ"><img height="400" width="600" alt="App隐私合规与安全分析探针实战课程" src="https://user-images.githubusercontent.com/1672927/218050607-72aed515-a33a-4217-aa4c-658fcb970acb.png"></a>
 
