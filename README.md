@@ -244,7 +244,7 @@ eBPF系列课程目前公开目录为3季内容。第4季计划制作中，内�
 
 所有签署保密协议的eBPF学员，可学完前3季后，免费观看第4季（第4季发布完成后授权观看），没有所有签署保密协议的朋友需要签署后才可以观看，否则视为放弃福利。
 
-<img width="340" alt="image" src="https://github.com/feicong/ebpf-course/assets/1672927/0410f2d0-814a-443e-8130-fda58919509b">
+<img width="464" alt="image" src="https://github.com/feicong/ebpf-course/assets/1672927/91c05186-de5f-4693-bab8-3005b9804a3e">
 
 
 ## 关注微信公众号
