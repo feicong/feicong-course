@@ -15,7 +15,7 @@
 
 - **App隐私合规与安全分析探针实战课程**
 
-见下图，打上绿色小勾的，表示已经公开或已发布的。
+见下图，**打上绿色小勾的，表示已经务课好了的，具体发布的以实际为准**。
 
 ![Android代码安全分析与隐私合规沙箱技能栈](./Android代码安全分析与隐私合规沙箱技能栈.jpg)
 
@@ -145,13 +145,10 @@ eBPF程序类型之Socket过滤器
 ## App隐私合规与安全分析探针实战课程
 
 
-<details>
+### 课程目录
 
- <summary>课程目录</summary>
- 
-<a href="https://mp.weixin.qq.com/s/s_t3hgfVGJcpxWFUHzkSfQ"><img height="400" width="600" alt="App隐私合规与安全分析探针实战课程" src="./App隐私合规与代码分析探针实战课程.jpg"></a>
+<img width="1352" alt="App隐私合规与代码分析探针实战课程" src="https://github.com/feicong/ebpf-course/assets/1672927/5838dd46-b5d6-4e4c-a398-8cc454f49495">
 
-</details>
 
 <details>
  
