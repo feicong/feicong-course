@@ -1,6 +1,3 @@
-![image](https://github.com/feicong/ebpf-course/assets/1672927/5c6c5d8d-2fea-42c8-aad1-4b3e606cc835)# eBPF安全开发与攻防对抗系列课程
-
-
 ## Android代码安全分析与隐私合规沙箱技能栈
 
 <details>
