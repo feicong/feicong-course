@@ -1,0 +1,9 @@
+CC = gcc
+
+TARGET = hello
+$(TARGET) : CFLAGS = -g
+$(TARGET): $(TARGET).o
+	$(CC) $(CFLAGS) $(TARGET).o -o $(TARGET)
+.PHONY: clean
+clean:
+	-rm -rf $(TARGET) $(TARGET).o

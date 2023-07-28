@@ -1,0 +1,17 @@
+CC = gcc
+
+TARGET = hello
+
+SRC := $(TARGET).c
+OBJ := $(TARGET).o
+$(TARGET) : CFLAGS = -g
+
+$(TARGET): $(OBJ)
+	$(CC) $(OBJ) -o $(TARGET)
+
+$(OBJ): $(SRC)
+	$(CC) $(CFLAGS) -c $(SRC) -o $(OBJ)
+
+.PHONY: clean all
+clean:
+	rm -rf $(TARGET) $(TARGET).o
