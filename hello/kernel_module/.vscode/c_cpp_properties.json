@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/lib/modules/5.10.110-rockchip-rk3588/build/include/**",
+                "/lib/modules/5.10.110-rockchip-rk3588/build/arch/arm64/include/**",
+                "/lib/modules/5.10.110-rockchip-rk3588/build/arch/arm64/include/generated/**",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-arm64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+        }
+    ],
+    "version": 4
+}
