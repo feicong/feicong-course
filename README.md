@@ -201,8 +201,7 @@ eBPF程序类型之Socket过滤器
  
 **eBPF课程第0季基础课扫码免费观看。**
 
-https://mmbiz.qpic.cn/sz_mmbiz_png/k9S5z61JPnbu8G6Ukrz61z17iaiaV6VB3o7RvEfnHC5jpNEFhnZicuGGFCUAU25ib5DSr55gZvefDewopCEofvR3Gg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1![image](https://github.com/feicong/ebpf-course/assets/1672927/fcf6abe9-93ad-4e33-aa7f-8046c6f154b7)
-
+<img width="915" alt="image" src="https://github.com/feicong/ebpf-course/assets/1672927/ddb85370-e246-4cc9-b27f-c8dcfdf91d3a">
 
 eBPF课程第一季价格**968**元。
 
