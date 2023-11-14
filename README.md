@@ -199,17 +199,20 @@ eBPF程序类型之Socket过滤器
  
 ### 课程目前价格
  
-**eBPF课程第0季基础课全免费。**
+**eBPF课程第0季基础课扫码免费观看。**
 
-eBPF课程第一季Linux eBPF开发篇价格**968**元。
+https://mmbiz.qpic.cn/sz_mmbiz_png/k9S5z61JPnbu8G6Ukrz61z17iaiaV6VB3o7RvEfnHC5jpNEFhnZicuGGFCUAU25ib5DSr55gZvefDewopCEofvR3Gg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1![image](https://github.com/feicong/ebpf-course/assets/1672927/fcf6abe9-93ad-4e33-aa7f-8046c6f154b7)
 
-eBPF课程第二季Linux eBPF开发篇价格**999**元。
 
-eBPF课程第三季Linux eBPF开发篇价格**999**元。
+eBPF课程第一季价格**968**元。
 
-eBPF课程第四季Linux eBPF开发篇价格**999**元。
+eBPF课程第二季价格**999**元。
 
-eBPF课程第五季Linux eBPF开发篇价格**999**元。
+eBPF课程第三季价格**999**元。
+
+eBPF课程第四季价格**999**元。
+
+eBPF课程第五季价格**999**元。
 
 **eBPF课程全季（含第1、2、3、4、5季），个人价格3799元，企业价格4699元**。
 
@@ -246,8 +249,9 @@ eBPF系列课程目录全公开，在不影响承诺内容前提下实时调整�
 <details>
  
  <summary>关注微信公众号</summary>
+ 
+![518455128484T4](https://github.com/feicong/ebpf-course/assets/1672927/1a47f3f4-b9b2-43fb-82f6-d82bc38b623b)
 
-<img width="59" alt="image" src="https://user-images.githubusercontent.com/1672927/208086952-80e44d7a-45af-452d-90c3-9845fdee585d.png">
 
 </details>
 
