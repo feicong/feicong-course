@@ -246,9 +246,8 @@ eBPF系列课程目录全公开，在不影响承诺内容前提下实时调整�
  
  <summary>关注微信公众号</summary>
 
-https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzU3MTY5MzQxMA==&mid=2247484511&idx=1&sn=ecca0943988070f76a694be404096eb6&send_time=![image](https://github.com/feicong/ebpf-course/assets/1672927/3703c53d-c286-4fa5-b6ba-c88484da25d7)
+<img width="166" alt="image" src="https://github.com/feicong/ebpf-course/assets/1672927/a3f4468c-3532-41fe-9474-eb0f2bb97dc6">
 
- 
 ![518455128484T4](https://github.com/feicong/ebpf-course/assets/1672927/1a47f3f4-b9b2-43fb-82f6-d82bc38b623b)
 
 </details>
