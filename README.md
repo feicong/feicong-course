@@ -82,13 +82,20 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 
 ### eBPF课程目录
 
+<details>
+ 
+ <summary>eBPF基础入门课</summary>
+
 <img width="1128" alt="eBPF基础入门课" src="https://github.com/feicong/ebpf-course/assets/1672927/ab55c12c-6fad-4a36-8fa8-b491a943e036">
+
+</details>
 
 <img width="1607" alt="eBPF安全开发与攻防对抗系列课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/9739cb2d-50c5-4b0c-b27e-e93955c7b229">
 
 <details>
  
- <summary>eBPF课程试看</summary>
+<summary>eBPF课程试看</summary>
+
 
 ### eBPF课程试看
 
@@ -142,7 +149,14 @@ eBPF程序类型之Socket过滤器
 
 ### 课程目录
 
+
+<details>
+ 
+<summary>App隐私合规与代码分析探针实战课程</summary>
+
 <img width="1352" alt="App隐私合规与代码分析探针实战课程" src="https://github.com/feicong/ebpf-course/assets/1672927/5838dd46-b5d6-4e4c-a398-8cc454f49495">
+
+</details>
 
 
 <details>
@@ -191,6 +205,24 @@ eBPF程序类型之Socket过滤器
 
 </details>
 
+
+---
+
+
+## 安卓系统定制实战课程
+
+
+### 课程目录
+
+
+<details>
+ 
+<summary>安卓系统定制实战课程</summary>
+
+
+</details>
+
+
 ---
  
 ## 购买课程
@@ -198,28 +230,21 @@ eBPF程序类型之Socket过滤器
 **目前开学季课程活，限直接联系本人微信feicongcn购买的学员，课程的播放需要微信绑定设备授权与签署保密协议**
  
 ### 课程目前价格
- 
-**eBPF课程第0季基础课扫码免费观看。**
 
-<img width="915" alt="image" src="https://github.com/feicong/ebpf-course/assets/1672927/ddb85370-e246-4cc9-b27f-c8dcfdf91d3a">
+eBPF课程任一单季价格**999**元，全季（含第1、2、3、4、5季），个人价格**3799**元，企业价格**4699**元。
 
-eBPF课程第一季价格**968**元。
+App隐私合规与安全分析探针实战课程全季（含第1、2、3季），价格**1899**元。
 
-eBPF课程第二季价格**999**元。
+安卓系统定制实战课程任一单季**999元**元，全季（含第1、2、3季），价格2997元，目前开季活动价全季只要**999**元，eBPF全季老学员只需要**699**元，元旦起全季早鸟价**1299**元。
 
-eBPF课程第三季价格**999**元。
 
-eBPF课程第四季价格**999**元。
+### 课程发布与更新
 
-eBPF课程第五季价格**999**元。
-
-**eBPF课程全季（含第1、2、3、4、5季），个人价格3799元，企业价格4699元**。
-
-App隐私合规与安全分析探针实战课程全季（含第1、2、3季），价格**1899元**
+eBPF系列课程第一、二、三季已完结。
 
 App探针实战课程第一季已完结。
 
-eBPF系列课程第一、二、三季已完结。
+安卓系统定制实战课程2024年1月1日开播。
 
 
 ### 课程配套学习设备购买
