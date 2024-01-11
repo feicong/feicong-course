@@ -217,7 +217,7 @@ eBPF程序类型之Socket过滤器
 
 ### 课程目录
 
-<img width="1146" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/78caf970-1d7a-4fb2-aec8-06ccc11862e3">
+<img width="1167" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/6d1adcda-19e3-497c-a624-851d5d8df1ab">
 
 
 ### 课程目标
