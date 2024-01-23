@@ -157,7 +157,8 @@ eBPF程序类型之Socket过滤器
  
 <summary>App隐私合规与代码分析探针实战课程</summary>
 
-<img width="1352" alt="App隐私合规与代码分析探针实战课程" src="https://github.com/feicong/ebpf-course/assets/1672927/5838dd46-b5d6-4e4c-a398-8cc454f49495">
+<img width="1352" alt="App隐私合规与代码分析探针实战课程" src="https://github.com/feicong/ebpf-course/assets/1672927/b52390df-9bf2-4a23-b164-a163d58f1fea">
+
 
 </details>
 
