@@ -1,4 +1,3 @@
-<img width="1146" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/a69fec4c-617e-4849-9196-714025cc895b">## Android代码安全分析与隐私合规沙箱技能栈
 
 <details>
 
@@ -218,7 +217,7 @@ eBPF程序类型之Socket过滤器
 
 ### 课程目录
 
-<img width="1167" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/458df745-cb8c-4fab-8116-56d37795d4d4">
+<img width="1130" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/48332e0b-dd6c-4b45-88cc-d59005f8a13d">
 
 
 ### 课程目标
