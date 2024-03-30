@@ -91,7 +91,7 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 
 <summary>eBPF全季课程</summary>
 
-<img width="1512" alt="eBPF安全开发与攻防对抗系列课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/cbf67ad3-05a5-4030-bcdb-cfa671234373">
+<img width="1512" alt="eBPF安全开发与攻防对抗系列课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/2608b2a4-bf58-4c7b-8639-f14b24a825c2">
 
 
 <details>
@@ -217,7 +217,7 @@ eBPF程序类型之Socket过滤器
 
 ### 课程目录
 
-<img width="1144" alt="安卓系统定制实战课程（安卓13） - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/2bb564f4-7ac4-4fcf-b9f3-3e2e53289ef9">
+<img width="1163" alt="安卓系统定制 实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/3f2d285f-fbbc-4078-a8d6-5d2f163bc6c8">
 
 
 ### 课程目标
