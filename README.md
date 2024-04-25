@@ -1,4 +1,3 @@
-
 <details>
 
  <summary>技能栈脑图</summary>
@@ -217,7 +216,7 @@ eBPF程序类型之Socket过滤器
 
 ### 课程目录
 
-<img width="1165" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/4453e0ef-7417-416b-a553-23e77b4a80d1">
+<img width="1082" alt="安卓系统定制实战课程 - 非虫" src="https://github.com/feicong/ebpf-course/assets/1672927/1992dd1c-34db-4738-865c-be680bfd66a7">
 
 
 ### 课程目标
