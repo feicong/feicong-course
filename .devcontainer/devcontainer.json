@@ -1,4 +1,4 @@
-// fei_cong eBPF dev container. https://github.com/feicong/ebpf-course
+// Copyright (c) 2023-2024 fei_cong(https://github.com/feicong/ebpf-course)
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
