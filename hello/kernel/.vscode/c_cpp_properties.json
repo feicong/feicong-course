@@ -8,9 +8,9 @@
                 "${workspaceFolder}/include/linux/**",
                 "${workspaceFolder}/arch/arm64/**",
                 "${workspaceFolder}/**",
-                "/lib/modules/5.10.110-rockchip-rk3588/build/include/**",
-                "/lib/modules/5.10.110-rockchip-rk3588/build/arch/arm64/include/**",
-                "/lib/modules/5.10.110-rockchip-rk3588/build/arch/arm64/include/generated/**"
+                "/lib/modules/5.10.160-rockchip-rk3588/build/include/**",
+                "/lib/modules/5.10.160-rockchip-rk3588/build/arch/arm64/include/**",
+                "/lib/modules/5.10.160-rockchip-rk3588/build/arch/arm64/include/generated/**"
             ],
             "defines": [
                 "__GNUC__",
