@@ -19,10 +19,10 @@ on:
 
 run-name: Cache ${{ github.event.inputs.architecture }} Docker Image for ${{ github.event.inputs.image_name }}:${{ github.event.inputs.version }}
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-  
+# concurrency:
+#   group: ${{ github.workflow }}-${{ github.ref }}
+#   cancel-in-progress: true
+
 jobs:
   update_cache:
     runs-on: ubuntu-latest
@@ -53,27 +53,11 @@ jobs:
           rm ${SHA512}.tar
           echo "Compressed to ${SHA512}.tar.xz"
 
-      - name: Download existing meta.json from mirror release
-        run: |
-          curl -L -o meta.json "https://github.com/${{ github.repository }}/releases/download/mirror/meta.json" || echo '[]' > meta.json
-
-      - name: Create or update meta.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          if jq -e ". | any(.image == \"$IMAGE_NAME\" and .version == \"$VERSION\" and .architecture == \"$ARCHITECTURE\")" meta.json; then
-            jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
-            '(.[] | select(.image == $image and .version == $version and .architecture == $arch).sha512) = $sha512' meta.json > tmp.json && mv tmp.json meta.json
-          else
-            jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
-            '. += [{"image": $image, "version": $version, "sha512": $sha512, "architecture": $arch}]' meta.json > tmp.json && mv tmp.json meta.json
-          fi
-
       - name: Upload to Release
         uses: ncipollo/release-action@main
         with:
           tag: mirror
-          artifacts: "*.tar.xz, meta.json"
+          artifacts: "*.tar.xz"
           allowUpdates: true
           removeArtifacts: false
           replacesArtifacts: true
