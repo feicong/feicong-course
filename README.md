@@ -1,7 +1,12 @@
 # 安卓动态分析沙箱技能宇宙
 
+<details>
+ 
+ <summary>技能宇宙</summary>
+ 
 <img width="1433" alt="安卓动态分析沙箱技能宇宙" src="https://github.com/user-attachments/assets/ca27f8bd-a9be-44db-92b9-cc015adf191f">
 
+</details>
 
 
 ## eBPF安全开发与攻防对抗系列课程
