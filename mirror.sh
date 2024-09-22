@@ -26,10 +26,8 @@ export https_proxy=http://192.168.0.120:7890
 export http_proxy=http://192.168.0.120:7890
 export all_proxy=socks5://192.168.0.120:7890
 
-# 下载 meta.json
 curl -L -o meta.json "https://github.com/$REPO/releases/download/${TAG}/meta.json" || echo '[]' > meta.json
 
-# 获取 SHA512
 SHA512=$(jq -r --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg architecture "$ARCHITECTURE" \
 '.[] | select(.image == $image and .version == $version and .architecture == $architecture) | .sha512' meta.json)
 
@@ -55,7 +53,13 @@ if [ -n "$SHA512" ]; then
     echo "Docker image $IMAGE_NAME loaded successfully from ${SHA512}.tar"
 else
     echo "Image not found in cache. Triggering GitHub Actions workflow..."
-    gh workflow run --repo $REPO "Docker Image Cache Update" --field image_name="$IMAGE_NAME" --field version="$VERSION" --field architecture="linux/amd64"
+    if [ -n "$GITHUB_TOKEN" ]; then
+        echo "login to github..."
+        echo "$GITHUB_TOKEN" | gh auth login --with-token
+    else
+        gh auth login
+    fi
+
     echo '{"image_name":"'"$IMAGE_NAME"'", "version":"'"$VERSION"'", "architecture":"'"$ARCHITECTURE"'"}' | gh workflow run --repo $REPO mirror.yml --json
     gh run list --workflow=mirror.yml --repo $REPO
     echo "Waiting for the workflow to finish..."
