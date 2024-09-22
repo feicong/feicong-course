@@ -14,8 +14,8 @@ on:
         description: 'Docker image architecture'
         default: 'linux/arm64'
         required: true
-  schedule:
-    - cron: '0 23 * * *' # 每天晚上11点触发
+  # schedule:
+  #   - cron: '0 23 * * *'
 
 jobs:
   update_cache:
@@ -47,13 +47,10 @@ jobs:
 
       - name: Create or update meta.json
         run: |
-          # 读取原来的 meta.json，并更新或添加当前 tar 文件信息
           if jq -e ". | any(.image == \"$IMAGE_NAME\" and .version == \"$VERSION\" and .architecture == \"$ARCHITECTURE\")" meta.json; then
-            # 如果已经存在，则更新现有条目
             jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
             '(.[] | select(.image == $image and .version == $version and .architecture == $arch).sha512) = $sha512' meta.json > tmp.json && mv tmp.json meta.json
           else
-            # 如果不存在，则添加新的条目
             jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
             '. += [{"image": $image, "version": $version, "sha512": $sha512, "architecture": $arch}]' meta.json > tmp.json && mv tmp.json meta.json
           fi
