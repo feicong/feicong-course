@@ -17,6 +17,8 @@ on:
   # schedule:
   #   - cron: '0 23 * * *'
 
+run-name: Cache ${{ github.event.inputs.architecture }} Docker Image for ${{ github.event.inputs.image_name }}:${{ github.event.inputs.version }}
+
 jobs:
   update_cache:
     runs-on: ubuntu-latest
@@ -74,4 +76,3 @@ jobs:
           body: |
             Docker images cache mirror. don't forget to enable longpath. git config --global core.longpaths true
             https://github.com/feicong/ebpf-course
-            
