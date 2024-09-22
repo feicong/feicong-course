@@ -19,6 +19,10 @@ on:
 
 run-name: Cache ${{ github.event.inputs.architecture }} Docker Image for ${{ github.event.inputs.image_name }}:${{ github.event.inputs.version }}
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
 jobs:
   update_cache:
     runs-on: ubuntu-latest
