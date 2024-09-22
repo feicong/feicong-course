@@ -25,7 +25,7 @@ if [ -n "$SHA512" ]; then
     echo "Found cached image. Downloading ${SHA512}.tar..."
     curl -L -o "${IMAGE_NAME}.tar" "https://github.com/$REPO/releases/latest/download/${SHA512}.tar"
     gh release download --repo $REPO mirror -O ${SHA512}.tar -p ${SHA512}.tar --clobber
-    docker load -i "${IMAGE_NAME}.tar"
+    docker load -i "${SHA512}.tar"
     echo "Docker image $IMAGE_NAME loaded successfully."
 else
     echo "Image not found in cache. Triggering GitHub Actions workflow..."
