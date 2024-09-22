@@ -7,6 +7,7 @@ if [ "$(id -u)" -eq 0 ]; then
 fi
 
 REPO="feicong/ebpf-course"
+TAG="mirror"
 
 if [ -z "$3" ]; then
     echo "usage: ./mirror.sh fsx199/strongdroid 12-arm64 linux/arm64"
@@ -21,39 +22,37 @@ IMAGE_NAME="$1"
 VERSION="$2"
 ARCHITECTURE="$3"
 
-# export https_proxy=http://192.168.0.120:7890 
-# export http_proxy=http://192.168.0.120:7890 
-# export all_proxy=socks5://192.168.0.120:7890
+export https_proxy=http://192.168.0.120:7890
+export http_proxy=http://192.168.0.120:7890
+export all_proxy=socks5://192.168.0.120:7890
 
 # 下载 meta.json
-curl -L -o meta.json "https://github.com/$REPO/releases/download/mirror/meta.json" || echo '[]' > meta.json
+curl -L -o meta.json "https://github.com/$REPO/releases/download/${TAG}/meta.json" || echo '[]' > meta.json
 
 # 获取 SHA512
 SHA512=$(jq -r --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg architecture "$ARCHITECTURE" \
 '.[] | select(.image == $image and .version == $version and .architecture == $architecture) | .sha512' meta.json)
 
 if [ -n "$SHA512" ]; then
-    echo "Found cached image. Downloading ${SHA512}.tar..."
-    gh release download --repo $REPO mirror -O ${SHA512}.tar -p ${SHA512}.tar --clobber || {
-        echo "Failed to download ${SHA512}.tar, trying ${SHA512}.tar.xz..."
-        gh release download --repo $REPO mirror -O ${SHA512}.tar.xz -p ${SHA512}.tar.xz --clobber
-        
-        # 解压 .tar.xz 文件
+    if [ -f "${SHA512}.tar" ]; then
+        echo "Found cached image ${SHA512}.tar"
+    else
+        if [ ! -f "${SHA512}.tar.xz" ]; then
+            curl -L -o "${SHA512}.tar.xz" "https://github.com/${REPO}/releases/download/${TAG}/${SHA512}.tar.xz" || {
+                echo "Failed to download ${SHA512}.tar.xz"
+                exit 1
+            }
+        fi
+
         echo "Extracting ${SHA512}.tar.xz..."
         tar -xJf "${SHA512}.tar.xz" -C . || {
             echo "Failed to extract ${SHA512}.tar.xz"
             exit 1
         }
-        
-        # 使用解压后的文件进行 docker load
-        docker load -i "${SHA512}.tar"
-        echo "Docker image $IMAGE_NAME loaded successfully from .tar.xz"
-        exit 0
-    }
-
-    # 如果成功下载 .tar 文件
+    fi
+    
     docker load -i "${SHA512}.tar"
-    echo "Docker image $IMAGE_NAME loaded successfully from .tar"
+    echo "Docker image $IMAGE_NAME loaded successfully from ${SHA512}.tar"
 else
     echo "Image not found in cache. Triggering GitHub Actions workflow..."
     gh workflow run --repo $REPO "Docker Image Cache Update" --field image_name="$IMAGE_NAME" --field version="$VERSION" --field architecture="linux/amd64"
@@ -64,6 +63,8 @@ else
     echo "Cache completed, run script again."
 fi
 
+docker images | grep $IMAGE_NAME
+docker rmi $(docker images -f "dangling=true" -q) 2>/dev/null || true
 docker images | grep $IMAGE_NAME
 
 echo done.
