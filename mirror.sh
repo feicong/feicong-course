@@ -1,7 +1,5 @@
 #!/bin/bash
 # /* Copyright (c) 2024 fei_cong(https://github.com/feicong/ebpf-course) */
-set -exE
-trap 'echo Error: in $0 on line $LINENO' ERR
 
 if [ "$(id -u)" -eq 0 ]; then 
     echo "Please run script as normal user, not root user."
@@ -9,13 +7,23 @@ if [ "$(id -u)" -eq 0 ]; then
 fi
 
 REPO="feicong/ebpf-course"
-IMAGE_NAME="alpine"
-VERSION="latest"
-ARCHITECTURE="linux/arm64"
 
-export https_proxy=http://192.168.0.120:7890 
-export http_proxy=http://192.168.0.120:7890 
-export all_proxy=socks5://192.168.0.120:7890
+if [ -z "$3" ]; then
+    echo "usage: ./mirror.sh fsx199/strongdroid 12-arm64 linux/arm64"
+    exit 1
+fi
+
+set -exE
+trap 'echo Error: in $0 on line $LINENO' ERR
+
+
+IMAGE_NAME="$1"
+VERSION="$2"
+ARCHITECTURE="$3"
+
+# export https_proxy=http://192.168.0.120:7890 
+# export http_proxy=http://192.168.0.120:7890 
+# export all_proxy=socks5://192.168.0.120:7890
 
 # 下载 meta.json
 curl -L -o meta.json "https://github.com/$REPO/releases/download/mirror/meta.json" || echo '[]' > meta.json
