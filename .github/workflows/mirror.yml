@@ -1,0 +1,72 @@
+name: Cache Docker Image 
+on:
+  workflow_dispatch:
+    inputs:
+      image_name:
+        description: 'Docker image name'
+        default: 'alpine'
+        required: true
+      version:
+        description: 'Docker image version'
+        default: 'latest'
+        required: true
+      architecture:
+        description: 'Docker image architecture'
+        default: 'linux/arm64'
+        required: true
+  schedule:
+    - cron: '0 23 * * *' # 每天晚上11点触发
+
+jobs:
+  update_cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set input parameters
+        id: params
+        run: |
+          echo "IMAGE_NAME=${{ github.event.inputs.image_name }}" >> $GITHUB_ENV
+          echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
+          echo "ARCHITECTURE=${{ github.event.inputs.architecture }}" >> $GITHUB_ENV
+
+      - name: Pull Docker image
+        run: |
+          docker pull --platform $ARCHITECTURE $IMAGE_NAME:$VERSION
+
+      - name: Save Docker image as tar
+        run: |
+          SHA512=$(echo -n "$IMAGE_NAME:$VERSION" | sha512sum | awk '{print $1}')
+          echo "SHA512=${SHA512}" >> $GITHUB_ENV
+          docker save $IMAGE_NAME:$VERSION -o ${SHA512}.tar
+
+      - name: Download existing meta.json from mirror release
+        run: |
+          curl -L -o meta.json "https://github.com/${{ github.repository }}/releases/download/mirror/meta.json" || echo '[]' > meta.json
+
+      - name: Create or update meta.json
+        run: |
+          # 读取原来的 meta.json，并更新或添加当前 tar 文件信息
+          if jq -e ". | any(.image == \"$IMAGE_NAME\" and .version == \"$VERSION\" and .architecture == \"$ARCHITECTURE\")" meta.json; then
+            # 如果已经存在，则更新现有条目
+            jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
+            '(.[] | select(.image == $image and .version == $version and .architecture == $arch).sha512) = $sha512' meta.json > tmp.json && mv tmp.json meta.json
+          else
+            # 如果不存在，则添加新的条目
+            jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
+            '. += [{"image": $image, "version": $version, "sha512": $sha512, "architecture": $arch}]' meta.json > tmp.json && mv tmp.json meta.json
+          fi
+
+      - name: Upload to Release
+        uses: ncipollo/release-action@main
+        with:
+          tag: mirror
+          artifacts: "${SHA512}.tar, meta.json"
+          allowUpdates: true
+          removeArtifacts: false
+          replacesArtifacts: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          body: |
+            Docker images cache mirror. don't forget to enable longpath. git config --global core.longpaths true
+            https://github.com/feicong/ebpf-course
