@@ -35,11 +35,17 @@ jobs:
         run: |
           docker pull --platform $ARCHITECTURE $IMAGE_NAME:$VERSION
 
-      - name: Save Docker image as tar
+      - name: Save Docker image
         run: |
           SHA512=$(echo -n "$IMAGE_NAME:$VERSION" | sha512sum | awk '{print $1}')
           echo "SHA512=${SHA512}" >> $GITHUB_ENV
           docker save $IMAGE_NAME:$VERSION -o ${SHA512}.tar
+
+      - name: compress Docker image
+        run: |
+          tar -cJf ${SHA512}.tar.xz ${SHA512}.tar
+          rm ${SHA512}.tar
+          echo "Compressed to ${SHA512}.tar.xz"
 
       - name: Download existing meta.json from mirror release
         run: |
@@ -59,7 +65,7 @@ jobs:
         uses: ncipollo/release-action@main
         with:
           tag: mirror
-          artifacts: "*.tar, meta.json"
+          artifacts: "*.tar.xz, meta.json"
           allowUpdates: true
           removeArtifacts: false
           replacesArtifacts: true
@@ -68,3 +74,4 @@ jobs:
           body: |
             Docker images cache mirror. don't forget to enable longpath. git config --global core.longpaths true
             https://github.com/feicong/ebpf-course
+            
