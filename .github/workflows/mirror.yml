@@ -39,7 +39,7 @@ jobs:
 
       - name: Save Docker image
         run: |
-          SHA512=$(echo -n "$IMAGE_NAME:$VERSION" | sha512sum | awk '{print $1}')
+          SHA512=$(echo -n "$IMAGE_NAME:$VERSION-$ARCHITECTURE" | sha512sum | awk '{print $1}')
           echo "SHA512=${SHA512}" >> $GITHUB_ENV
           docker save $IMAGE_NAME:$VERSION -o ${SHA512}.tar
 
@@ -54,6 +54,8 @@ jobs:
           curl -L -o meta.json "https://github.com/${{ github.repository }}/releases/download/mirror/meta.json" || echo '[]' > meta.json
 
       - name: Create or update meta.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if jq -e ". | any(.image == \"$IMAGE_NAME\" and .version == \"$VERSION\" and .architecture == \"$ARCHITECTURE\")" meta.json; then
             jq --arg image "$IMAGE_NAME" --arg version "$VERSION" --arg sha512 "$SHA512" --arg arch "$ARCHITECTURE" \
