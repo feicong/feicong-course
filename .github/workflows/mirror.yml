@@ -59,10 +59,11 @@ jobs:
         uses: ncipollo/release-action@main
         with:
           tag: mirror
-          artifacts: "${SHA512}.tar, meta.json"
+          artifacts: "*.tar, meta.json"
           allowUpdates: true
           removeArtifacts: false
           replacesArtifacts: true
+          makeLatest: false
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
             Docker images cache mirror. don't forget to enable longpath. git config --global core.longpaths true
