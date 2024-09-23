@@ -37,7 +37,7 @@ jobs:
           echo "VERSION=${{ github.event.inputs.version }}" >> $GITHUB_ENV
           echo "ARCHITECTURE=${{ github.event.inputs.architecture }}" >> $GITHUB_ENV
 
-      - name: Pull Docker image
+      - name: Pull Docker image ${{ github.event.inputs.image_name }}:${{ github.event.inputs.version }}
         run: |
           docker pull --platform $ARCHITECTURE $IMAGE_NAME:$VERSION
 
@@ -52,6 +52,13 @@ jobs:
           tar -cJf ${SHA512}.tar.xz ${SHA512}.tar
           rm ${SHA512}.tar
           echo "Compressed to ${SHA512}.tar.xz"
+
+      - name: Upload
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: ubuntu-kernel-${{ matrix.suite }}
+          path: ./*.tar.xz
+          if-no-files-found: error
 
       - name: Upload to Release
         uses: ncipollo/release-action@main
