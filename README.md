@@ -1,6 +1,19 @@
-# 安卓动态分析沙箱技能宇宙
+# 非虫与他的课程 <font color=red>点击▶展开看栏目详情</font>
 
-<font size=5 color=red>点击▶展开看栏目详情</font>
+目前课程有：
+
+Frida源码情景分析系列
+
+eBPF安全开发与攻防对抗系列
+
+安卓系统定制系列
+
+隐私探针开发系列
+
+
+## 安卓动态分析沙箱技能宇宙
+
+
 
 <details>
  
@@ -94,11 +107,14 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 
 </details>
 
+<details>
+ 
 <summary>eBPF全季课程</summary>
 
 <img width="2007" alt="eBPF安全开发与攻防对抗系列课程- 非虫" src="https://github.com/user-attachments/assets/877916c1-5893-45b0-bc36-e0f7f6b65a67">
 
-
+</details>
+ 
 <details>
  
 <summary>eBPF课程试看</summary>
@@ -225,9 +241,15 @@ eBPF程序类型之Socket过滤器
 
 ### 课程目录
 
+<details>
+
+<summary>课程目录</summary>
+ 
 <img width="1449" alt="安卓系统定制实战课程- 非虫" src="https://github.com/user-attachments/assets/0687e9ab-3579-46e8-9f21-bfe92368c138">
 
 
+</details>
+ 
 ### 课程目标
 
 完成本课的学习后，您将具备以下能力：
