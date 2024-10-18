@@ -1,5 +1,7 @@
 # 安卓动态分析沙箱技能宇宙
 
+<font size=5 color=red>点击▶展开看栏目详情</font>
+
 <details>
  
  <summary>技能宇宙</summary>
