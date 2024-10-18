@@ -8,6 +8,20 @@
 
 </details>
 
+## Frida源码情景分析
+
+<img width="921" alt="image" src="https://github.com/user-attachments/assets/c541ef96-9c52-4065-a17b-34dcf1094325">
+
+Frida源码情景分析系列课程要来了！
+
+设定第一季：构建系统与语言基础篇 讲vala语言基础，Frida构建系统以及项目里面的python、nodejs、c、vala等项目的动态调试。
+设定第二季：Linux系统篇，讲frida-core、firda-gum、devkits、frida-tools等工具的组件接口实现。
+设定第三季：安卓系统篇，讲各组件工作流程以及在安卓上特定实现的细节，讲hook内幕，frida js调试等。
+
+**单独每季价格600，全季1800，早鸟全季打包价格800。限个人用户参与活动价格。**
+
+双11当天开更，现在活动期间再送知识星球一年，有效期内的朋友可以延续一年。
+
 
 ## eBPF安全开发与攻防对抗系列课程
 
