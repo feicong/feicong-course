@@ -97,8 +97,6 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 
 </details>
 
-### eBPF课程目录
-
 <details>
  
 <summary>eBPF基础入门课</summary>
@@ -109,7 +107,7 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 
 <details>
  
-<summary>eBPF全季课程</summary>
+<summary>eBPF课程目录</summary>
 
 <img width="2007" alt="eBPF安全开发与攻防对抗系列课程- 非虫" src="https://github.com/user-attachments/assets/877916c1-5893-45b0-bc36-e0f7f6b65a67">
 
@@ -172,12 +170,9 @@ eBPF程序类型之Socket过滤器
 ## App隐私合规与安全分析探针实战课程
 
 
-### 课程目录
-
-
 <details>
  
-<summary>App隐私合规与代码分析探针实战课程</summary>
+<summary>课程目录</summary>
 
 <img width="1352" alt="App隐私合规与代码分析探针实战课程" src="https://github.com/feicong/ebpf-course/assets/1672927/b52390df-9bf2-4a23-b164-a163d58f1fea">
 
@@ -190,8 +185,6 @@ eBPF程序类型之Socket过滤器
  <summary>课程试看</summary>
  
 
-### 课程试看
-
 课程目录设计
 
 <a href="https://mp.weixin.qq.com/s/s_t3hgfVGJcpxWFUHzkSfQ"><img height="400" width="600" alt="App隐私合规与安全分析探针实战课程" src="https://user-images.githubusercontent.com/1672927/218050607-72aed515-a33a-4217-aa4c-658fcb970acb.png"></a>
@@ -202,8 +195,6 @@ eBPF程序类型之Socket过滤器
  
  <summary>课程受众人员</summary>
  
-### 课程受众人员
-
 - 隐私合规从业人员
 - App逆向分析人员
 - 安全沙箱开发人员
@@ -215,9 +206,7 @@ eBPF程序类型之Socket过滤器
 
 <details>
  
- <summary>课程目标</summary>
-
-### 课程目标
+<summary>课程目标</summary>
 
 完成本课的学习后，您将具备以下能力：
 
@@ -238,19 +227,17 @@ eBPF程序类型之Socket过滤器
 
 ## 安卓系统定制实战课程（安卓12/13）
 
-
-### 课程目录
-
 <details>
 
 <summary>课程目录</summary>
  
 <img width="1449" alt="安卓系统定制实战课程- 非虫" src="https://github.com/user-attachments/assets/0687e9ab-3579-46e8-9f21-bfe92368c138">
 
-
 </details>
+
+<details>
  
-### 课程目标
+<summary>课程目标</summary>
 
 完成本课的学习后，您将具备以下能力：
 
@@ -275,10 +262,8 @@ eBPF程序类型之Socket过滤器
 
 <details>
  
- <summary>课程价格</summary>
+<summary>课程价格</summary>
  
-### 课程目前价格
-
 eBPF课程全季（含第1、2、3、4、5**季），个人价格**3799**元，企业价格**4699**元。
 
 App隐私合规与安全分析探针实战课程全季（含第1、2、3季），价格**1499**元。
@@ -288,13 +273,17 @@ App隐私合规与安全分析探针实战课程全季（含第1、2、3季）�
 </details>
 
 
-### 课程发布与更新
+<details>
+ 
+<summary>课程发布与更新</summary>
 
 eBPF系列课程全季已完结。
 
 App探针实战课程全季已完结。
 
 安卓系统定制实战课程全季已完结。
+
+</details>
 
 
 ### 课程配套学习设备购买
@@ -325,8 +314,9 @@ Pixel6 128g刷好自定义eBPF内核开发环境的设备。价格**1150**元。
 
 </details>
 
-
-## 说明
+<details>
+ 
+<summary>课程说明</summary>
 
 eBPF系列课程学习过程中涉及的安卓环境搭建：
 
@@ -335,6 +325,8 @@ eBPF系列课程学习过程中涉及的安卓环境搭建：
 使用CuttleFish模拟器，环境搭建可以参考eBPF第2季1集。
 
 使用arm开发板，环境搭建可以参考eBPF第2季2集与第4季6集。
+
+</details>
 
 
 ## 注意
