@@ -17,8 +17,8 @@ eBPF安全开发与攻防对抗系列
 
 <details>
  
- <summary>技能宇宙</summary>
- 
+<summary>技能宇宙</summary>
+
 <img width="1433" alt="安卓动态分析沙箱技能宇宙" src="https://github.com/user-attachments/assets/ca27f8bd-a9be-44db-92b9-cc015adf191f">
 
 </details>
@@ -27,15 +27,35 @@ eBPF安全开发与攻防对抗系列
 
 <img width="921" alt="image" src="https://github.com/user-attachments/assets/c541ef96-9c52-4065-a17b-34dcf1094325">
 
+<details>
+ 
+<summary>课程安排</summary>
+
 Frida源码情景分析系列课程要来了！
 
-设定第一季：构建系统与语言基础篇 讲vala语言基础，Frida构建系统以及项目里面的python、nodejs、c、vala等项目的动态调试。
-设定第二季：Linux系统篇，讲frida-core、firda-gum、devkits、frida-tools等工具的组件接口实现。
-设定第三季：安卓系统篇，讲各组件工作流程以及在安卓上特定实现的细节，讲hook内幕，frida js调试等。
+- 设定第一季：构建系统与语言基础篇 讲vala语言基础，Frida构建系统以及项目里面的python、nodejs、c、vala等项目的动态调试。
+
+- 设定第二季：Linux系统篇，讲frida-core、firda-gum、devkits、frida-tools等工具的组件接口实现。
+
+- 设定第三季：安卓系统篇，讲各组件工作流程以及在安卓上特定实现的细节，讲hook内幕，frida js调试等。
+
+</details>
+
+<details>
+ 
+<summary>课程价格</summary>
 
 **单独每季价格600，全季1800，早鸟全季打包价格800。限个人用户参与活动价格。**
 
+</details>
+
+<details>
+ 
+<summary>课程更新</summary>
+
 双11当天开更，现在活动期间再送知识星球一年，有效期内的朋友可以延续一年。
+
+</details>
 
 
 ## eBPF安全开发与攻防对抗系列课程
@@ -45,9 +65,7 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 
 <details>
  
- <summary>eBPF课程简介</summary>
- 
-### eBPF课程简介
+<summary>eBPF课程简介</summary>
 
 本课程由简到难，循序渐进，目前设定正式课程共三季内容，84节课程内容，课程根据难度，每集时长约**15**分钟到**120**分钟不等。
 
