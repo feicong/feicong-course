@@ -14,7 +14,6 @@ eBPF安全开发与攻防对抗系列
 ## 安卓动态分析沙箱技能宇宙
 
 
-
 <details>
  
 <summary>技能宇宙</summary>
@@ -25,7 +24,13 @@ eBPF安全开发与攻防对抗系列
 
 ## Frida源码情景分析
 
-<img width="921" alt="image" src="https://github.com/user-attachments/assets/c541ef96-9c52-4065-a17b-34dcf1094325">
+<details>
+ 
+<summary>课程目录</summary>
+
+<img width="773" alt="image" src="https://github.com/user-attachments/assets/7a0eac19-317a-4a60-b073-cdf2a006c858">
+
+</details>
 
 <details>
  
@@ -53,7 +58,7 @@ Frida源码情景分析系列课程要来了！
  
 <summary>课程更新</summary>
 
-双11当天开更，现在活动期间再送知识星球一年，有效期内的朋友可以延续一年。
+目前第一季内容更新中。
 
 </details>
 
