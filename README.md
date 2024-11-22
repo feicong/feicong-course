@@ -132,7 +132,8 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
  
 <summary>eBPF课程目录</summary>
 
-<img width="2007" alt="eBPF安全开发与攻防对抗系列课程- 非虫" src="https://github.com/user-attachments/assets/877916c1-5893-45b0-bc36-e0f7f6b65a67">
+<img width="2029" alt="eBPF安全开发与攻防对抗系列课程 - 非虫" src="https://github.com/user-attachments/assets/d834e8c7-a603-4251-b677-bc9539149fdc">
+
 
 </details>
  
