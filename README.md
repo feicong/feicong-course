@@ -10,6 +10,18 @@ eBPF安全开发与攻防对抗系列
 
 隐私探针开发系列
 
+## 非虫出版的图书
+
+![Android软件安全与逆向分析](https://github.com/user-attachments/assets/d03b87af-977e-45ad-873e-d1049c495b23)
+
+![Android软件安全权威指南](https://github.com/user-attachments/assets/008e9cb4-2e4e-4ebe-b24c-5f46d79d3870)
+
+![macOS软件安全与逆向分析](https://github.com/user-attachments/assets/6af7426f-5e62-45d1-90f4-0d1ba1368b30)
+
+即将出版：
+
+![image](https://github.com/user-attachments/assets/c1130b54-e600-45e0-ae85-10d82b8706cb)
+
 
 ## 安卓动态分析沙箱技能宇宙
 
