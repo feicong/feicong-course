@@ -2,25 +2,30 @@
 
 目前课程有：
 
-Frida源码情景分析系列
+Frida源码情景分析系列（更新中）
 
-eBPF安全开发与攻防对抗系列
+eBPF安全开发与攻防对抗系列（已完结）
 
-安卓系统定制系列
+安卓系统定制系列（已完结）
 
-隐私探针开发系列
+隐私探针开发系列（已完结）
 
 ## 非虫出版的图书
 
-![Android软件安全与逆向分析](https://github.com/user-attachments/assets/d03b87af-977e-45ad-873e-d1049c495b23)
+点击图片跳转正版购买链接
 
-![Android软件安全权威指南](https://github.com/user-attachments/assets/008e9cb4-2e4e-4ebe-b24c-5f46d79d3870)
-
-![macOS软件安全与逆向分析](https://github.com/user-attachments/assets/6af7426f-5e62-45d1-90f4-0d1ba1368b30)
-
-即将出版：
-
-![image](https://github.com/user-attachments/assets/c1130b54-e600-45e0-ae85-10d82b8706cb)
+<div align="center">
+	<a href="https://item.jd.com/11186337.html">
+	<img src="https://github.com/user-attachments/assets/d03b87af-977e-45ad-873e-d1049c495b23" alt="Android软件安全与逆向分析" width="25%" style="max-width: 300px;">
+	</a>
+ 	<a href="https://item.jd.com/12522178.html">
+	<img src="https://github.com/user-attachments/assets/008e9cb4-2e4e-4ebe-b24c-5f46d79d3870" alt="Android软件安全权威指南" width="25%" style="max-width: 300px;">
+	</a>
+	<img src="https://github.com/user-attachments/assets/6af7426f-5e62-45d1-90f4-0d1ba1368b30" alt="macOS软件安全与逆向分析" width="25%" style="max-width: 300px;">
+	<a href="https://item.jd.com/10132040684560.html">
+	<img src="https://github.com/user-attachments/assets/c1130b54-e600-45e0-ae85-10d82b8706cb" alt="eBPF开发指南从原理到应用" width="25%" style="max-width: 300px;">
+	</a>
+</div>
 
 
 ## 安卓动态分析沙箱技能宇宙
@@ -40,7 +45,7 @@ eBPF安全开发与攻防对抗系列
  
 <summary>课程目录</summary>
 
-<img width="773" alt="image" src="https://github.com/user-attachments/assets/7a0eac19-317a-4a60-b073-cdf2a006c858">
+![image](https://github.com/user-attachments/assets/53b5042c-8b6c-45f6-b1a1-65f0b48f6b58)
 
 </details>
 
@@ -60,7 +65,7 @@ eBPF安全开发与攻防对抗系列
  
 <summary>课程价格</summary>
 
-**全季1800，早鸟全季价格899。限个人用户参与活动价格。**
+**全季1800，早鸟全季价格1099。限个人用户参与活动价格。**
 
 </details>
 
@@ -304,18 +309,6 @@ App隐私合规与安全分析探针实战课程全季（含第1、2、3季）�
 
 </details>
 
-<details>
- 
-<summary>课程发布与更新</summary>
-
-eBPF系列课程全季已完结。
-
-App探针实战课程全季已完结。
-
-安卓系统定制实战课程全季已完结。
-
-</details>
-
 
 ### 课程配套学习设备购买
 
@@ -378,4 +371,3 @@ eBPF系列课程学习过程中涉及的安卓环境搭建：
 ![518455128484T4](https://github.com/feicong/ebpf-course/assets/1672927/1a47f3f4-b9b2-43fb-82f6-d82bc38b623b)
 
 </details>
-
