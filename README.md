@@ -106,7 +106,7 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 <details>
  
  <summary>eBPF特性与课程索引对应表</summary>
- 
+
 ### eBPF特性与课程索引对应表
 
 <a href="./eBPF特性与课程索引对应表.md"><img width="1527" alt="image" src="https://user-images.githubusercontent.com/1672927/216501444-9a9d2325-bb8d-4d44-8f50-b7a7051aa378.png"></a>
@@ -152,9 +152,8 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
 </details>
  
 <details>
- 
-<summary>eBPF课程试看</summary>
 
+<summary>eBPF课程试看</summary>
 
 ### eBPF课程试看
 
