@@ -39,6 +39,16 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 </details>
 
+## 安卓软件逆向分析入门与实战
+
+<details>
+ 
+<summary>课程目录</summary>
+
+<img width="1202" alt="安卓软件逆向分析入门与实战 - 非虫" src="https://github.com/user-attachments/assets/e104d3e5-a637-4579-bee3-5e90bacb4580" />
+
+</details>
+
 ## Frida源码情景分析
 
 <details>
