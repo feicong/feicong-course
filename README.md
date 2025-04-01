@@ -2,6 +2,8 @@
 
 目前课程有：
 
+安卓软件逆向分析入门与实战（更新中）
+
 Frida源码情景分析系列（更新中）
 
 eBPF安全开发与攻防对抗系列（已完结）
@@ -55,7 +57,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-![image](https://github.com/user-attachments/assets/53b5042c-8b6c-45f6-b1a1-65f0b48f6b58)
+<img width="2025" alt="Frida源码情景分析系列课程 - 非虫" src="https://github.com/user-attachments/assets/fb51e4ab-e4d4-4fca-955f-60bfed4929ba" />
 
 </details>
 
