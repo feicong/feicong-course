@@ -47,7 +47,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-<img width="1202" alt="安卓软件逆向分析入门与实战 - 非虫" src="https://github.com/user-attachments/assets/e104d3e5-a637-4579-bee3-5e90bacb4580" />
+![image](https://github.com/user-attachments/assets/03056d58-8563-4a5f-8058-443568263d2c)
 
 </details>
 
