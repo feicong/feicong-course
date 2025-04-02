@@ -2,7 +2,7 @@
 
 目前课程有：
 
-安卓软件逆向分析入门与实战（更新中）
+安卓软件开发与逆向分析（更新中）
 
 Frida源码情景分析系列（更新中）
 
@@ -41,13 +41,13 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 </details>
 
-## 安卓软件逆向分析入门与实战
+## 安卓软件开发与逆向分析
 
 <details>
  
 <summary>课程目录</summary>
 
-![image](https://github.com/user-attachments/assets/03056d58-8563-4a5f-8058-443568263d2c)
+![image](https://github.com/user-attachments/assets/19979479-35eb-4d13-b851-0af40956f3be)
 
 </details>
 
