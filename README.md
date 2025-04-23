@@ -2,6 +2,8 @@
 
 目前课程有：
 
+安卓软件开发与逆向分析（更新中）
+
 Frida源码情景分析系列（更新中）
 
 eBPF安全开发与攻防对抗系列（已完结）
@@ -14,16 +16,16 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 点击图片跳转正版购买链接
 
-<div align="center">
+<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
 	<a href="https://item.jd.com/11186337.html">
-	<img src="https://github.com/user-attachments/assets/d03b87af-977e-45ad-873e-d1049c495b23" alt="Android软件安全与逆向分析" width="25%" style="max-width: 300px;">
+		<img src="https://github.com/user-attachments/assets/d03b87af-977e-45ad-873e-d1049c495b23" alt="Android软件安全与逆向分析" width="23%" style="max-width: 300px;">
 	</a>
  	<a href="https://item.jd.com/12522178.html">
-	<img src="https://github.com/user-attachments/assets/008e9cb4-2e4e-4ebe-b24c-5f46d79d3870" alt="Android软件安全权威指南" width="25%" style="max-width: 300px;">
+		<img src="https://github.com/user-attachments/assets/008e9cb4-2e4e-4ebe-b24c-5f46d79d3870" alt="Android软件安全权威指南" width="23%" style="max-width: 300px;">
 	</a>
-	<img src="https://github.com/user-attachments/assets/6af7426f-5e62-45d1-90f4-0d1ba1368b30" alt="macOS软件安全与逆向分析" width="25%" style="max-width: 300px;">
+	<img src="https://github.com/user-attachments/assets/6af7426f-5e62-45d1-90f4-0d1ba1368b30" alt="macOS软件安全与逆向分析" width="23%" style="max-width: 300px;">
 	<a href="https://item.jd.com/10132040684560.html">
-	<img src="https://github.com/user-attachments/assets/c1130b54-e600-45e0-ae85-10d82b8706cb" alt="eBPF开发指南从原理到应用" width="25%" style="max-width: 300px;">
+		<img src="https://github.com/user-attachments/assets/c1130b54-e600-45e0-ae85-10d82b8706cb" alt="eBPF开发指南从原理到应用" width="23%" style="max-width: 300px;">
 	</a>
 </div>
 
@@ -39,13 +41,23 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 </details>
 
+## 安卓软件开发与逆向分析
+
+<details>
+ 
+<summary>课程目录</summary>
+
+![image](https://github.com/user-attachments/assets/3f9b8c35-15c9-4939-89ce-1d2e82a8c094)
+
+</details>
+
 ## Frida源码情景分析
 
 <details>
  
 <summary>课程目录</summary>
 
-![image](https://github.com/user-attachments/assets/53b5042c-8b6c-45f6-b1a1-65f0b48f6b58)
+<img width="2025" alt="Frida源码情景分析系列课程 - 非虫" src="https://github.com/user-attachments/assets/fb51e4ab-e4d4-4fca-955f-60bfed4929ba" />
 
 </details>
 
@@ -294,7 +306,7 @@ eBPF程序类型之Socket过滤器
 
 ## 购买课程
 
-**目前开学季课程活，限直接联系本人微信feicongcn购买的学员，课程的播放需要微信绑定设备授权与签署保密协议**
+**目前开学季课程活，限直接联系本人微信feicongcn购买的学员，课程的播放需要微信绑定设备授，支持Windows与macOS电脑播放**
 
 <details>
  
@@ -305,6 +317,8 @@ eBPF课程全季（含第1、2、3、4、5、6**季），个人价格**3799**元
 App隐私合规与安全分析探针实战课程全季（含第1、2、3季），价格**1499**元。
 
 安卓系统定制实战课程全季（含第1、2、3季），全季价格**1499**元。
+
+Frida源码情景分析（含第1、2、3季），全季价格**1099**元。
 
 </details>
 
