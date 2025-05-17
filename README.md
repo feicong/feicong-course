@@ -47,7 +47,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-![image](https://github.com/user-attachments/assets/3f9b8c35-15c9-4939-89ce-1d2e82a8c094)
+![image](https://github.com/user-attachments/assets/eb0afd8b-5154-4678-be5e-829d10e9404f)
 
 </details>
 
