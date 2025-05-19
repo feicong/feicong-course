@@ -383,6 +383,6 @@ eBPF系列课程学习过程中涉及的安卓环境搭建：
 
 ## 知识星球
 
-![image](https://github.com/user-attachments/assets/7d86efac-fa5b-44ec-9869-6fc1ad8d94f8)
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/e6eecc6b-2d42-4ecf-9380-605121c7dcc9" />
 
 </details>
