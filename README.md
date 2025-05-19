@@ -379,8 +379,10 @@ eBPF系列课程学习过程中涉及的安卓环境搭建：
  
 <summary>关注微信公众号</summary>
 
-<img width="166" alt="image" src="https://github.com/feicong/ebpf-course/assets/1672927/a3f4468c-3532-41fe-9474-eb0f2bb97dc6">
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/e1bdaf8f-a372-4a60-b9de-b3a7d2ec68d0" />
 
-![518455128484T4](https://github.com/feicong/ebpf-course/assets/1672927/1a47f3f4-b9b2-43fb-82f6-d82bc38b623b)
+## 知识星球
+
+![image](https://github.com/user-attachments/assets/7d86efac-fa5b-44ec-9869-6fc1ad8d94f8)
 
 </details>
