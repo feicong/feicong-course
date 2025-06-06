@@ -29,6 +29,23 @@ eBPF安全开发与攻防对抗系列（已完结）
 	</a>
 </div>
 
+## 非虫发布的电子书
+
+点击图片跳转下载链接
+
+<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
+	<a href="xxxx">
+		<img src="https://github.com/user-attachments/assets/db0ba155-f7c1-43ab-9a11-d83290a1b65d" alt="图解数据结构与算法" width="23%" style="max-width: 300px;">
+	</a>
+ 	<a href="xxxx">
+		<img src="https://github.com/feicong/android-rom-book/blob/main/cover.png?raw=true" alt="安卓系统定制入门" width="23%" style="max-width: 300px;">
+	</a>
+	<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
+	<a href="https://item.jd.com/10132040684560.html">
+		<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
+	</a>
+</div>
+
 
 ## 安卓动态分析沙箱技能宇宙
 
