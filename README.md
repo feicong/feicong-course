@@ -40,7 +40,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  	<a href="xxxx">
 		<img src="https://github.com/feicong/android-rom-book/blob/main/cover.png?raw=true" alt="安卓系统定制入门" width="23%" style="max-width: 300px;">
 	</a>
-	<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
+	<img src="https://github.com/user-attachments/assets/7379facb-e269-49c3-b9e9-e75ff84546d6" alt="Frida开发文档中文版" width="23%" style="max-width: 300px;">
 	<a href="https://item.jd.com/10132040684560.html">
 		<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
 	</a>
