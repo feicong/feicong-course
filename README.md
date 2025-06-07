@@ -31,7 +31,7 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 ## 非虫发布的电子书
 
-点击图片跳转下载链接
+关注**软件安全与逆向分析知识星球置顶**，点击图片跳转下载链接
 
 <div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
 	<a href="xxxx">
@@ -47,6 +47,22 @@ eBPF安全开发与攻防对抗系列（已完结）
 		<img src="https://github.com/user-attachments/assets/b6fe15bb-39e3-4c92-b429-44fdb19f2d2c" alt="PowerPC汇编语言开发指南" width="23%" style="max-width: 300px;">
 	</a>
 </div>
+
+<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
+	<a href="xxxx">
+		<img src="https://github.com/user-attachments/assets/220c1717-42aa-423f-94e3-3d84ab14e87c" alt="ARMv8汇编语言开发指南" width="23%" style="max-width: 300px;">
+	</a>
+ 	<a href="xxxx">
+		<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="xxxx">
+	<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="xxxx">
+		<img src="xxxx" alt="xxxx" width="23%" style="max-width: 300px;">
+	</a>
+</div>
+
 
 
 ## 安卓动态分析沙箱技能宇宙
