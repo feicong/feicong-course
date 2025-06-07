@@ -37,10 +37,10 @@ eBPF安全开发与攻防对抗系列（已完结）
 	<a href="xxxx">
 		<img src="https://github.com/user-attachments/assets/db0ba155-f7c1-43ab-9a11-d83290a1b65d" alt="图解数据结构与算法" width="23%" style="max-width: 300px;">
 	</a>
- 	<a href="xxxx">
+ 	<a href="https://t.zsxq.com/mBLwU">
 		<img src="https://github.com/feicong/android-rom-book/blob/main/cover.png?raw=true" alt="安卓系统定制入门" width="23%" style="max-width: 300px;">
 	</a>
-	<a href="xxxx">
+	<a href="https://t.zsxq.com/UzqWg">
 	<img src="https://github.com/user-attachments/assets/7379facb-e269-49c3-b9e9-e75ff84546d6" alt="Frida开发文档中文版" width="23%" style="max-width: 300px;">
 	</a>
 	<a href="xxxx">
