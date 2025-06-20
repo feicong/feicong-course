@@ -92,7 +92,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-<img width="2025" alt="Frida源码情景分析系列课程 - 非虫" src="https://github.com/user-attachments/assets/fb51e4ab-e4d4-4fca-955f-60bfed4929ba" />
+![image](https://github.com/user-attachments/assets/215d6bf7-c4c1-49ec-a771-1bc7651f914f)
 
 </details>
 
@@ -120,7 +120,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程更新</summary>
 
-目前第一季内容更新了6集。
+目前第3季快完结。
 
 </details>
 
