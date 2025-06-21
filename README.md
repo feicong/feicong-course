@@ -64,6 +64,21 @@ eBPF安全开发与攻防对抗系列（已完结）
 </div>
 
 
+<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
+	<a href="xxxx">
+	<img src="https://github.com/user-attachments/assets/d99af77d-3b0e-4d52-bec8-77240b90e0b0" alt="Linux内核模块编程指南" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="xxxx">
+	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="xxxx">
+	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="xxxx">
+	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
+	</a>
+</div>
+
 
 ## 安卓动态分析沙箱技能宇宙
 
