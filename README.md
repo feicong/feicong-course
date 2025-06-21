@@ -31,7 +31,7 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 ## 非虫发布的电子书
 
-关注**软件安全与逆向分析知识星球置顶**，点击图片跳转下载链接
+关注**软件安全与逆向分析知识星球置顶**，点击图片可以跳转即已发布，可星球下载，优先在视频课程中发布
 
 <div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
 	<a href="xxxx">
