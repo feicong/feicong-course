@@ -59,16 +59,12 @@ eBPF安全开发与攻防对抗系列（已完结）
 		<img src="https://github.com/user-attachments/assets/391da4ce-5b50-408c-b6c6-9c85899ae48c" alt="RISC-V汇编语言开发指南" width="23%" style="max-width: 300px;">
 	</a>
 	<a href="xxxx">
-	<img src="https://github.com/user-attachments/assets/f79aeb19-40bb-46bf-aaca-847eda18f55b" alt="x86_64汇编语⾔开发指南" width="23%" style="max-width: 300px;">
+	<img src="https://github.com/user-attachments/assets/d99af77d-3b0e-4d52-bec8-77240b90e0b0" alt="Linux内核模块编程指南" width="23%" style="max-width: 300px;">
 	</a>
 </div>
 
-
 <div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
 	<a href="xxxx">
-	<img src="https://github.com/user-attachments/assets/d99af77d-3b0e-4d52-bec8-77240b90e0b0" alt="Linux内核模块编程指南" width="23%" style="max-width: 300px;">
-	</a>
-	<a href="xxxx">
 	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
 	</a>
 	<a href="xxxx">
@@ -76,6 +72,9 @@ eBPF安全开发与攻防对抗系列（已完结）
 	</a>
 	<a href="xxxx">
 	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="xxxx">
+	<img src="https://github.com/user-attachments/assets/f79aeb19-40bb-46bf-aaca-847eda18f55b" alt="x86_64汇编语⾔开发指南" width="23%" style="max-width: 300px;">
 	</a>
 </div>
 
