@@ -58,7 +58,7 @@ eBPF安全开发与攻防对抗系列（已完结）
 	<a href="xxxx">
 		<img src="https://github.com/user-attachments/assets/391da4ce-5b50-408c-b6c6-9c85899ae48c" alt="RISC-V汇编语言开发指南" width="23%" style="max-width: 300px;">
 	</a>
-	<a href="xxxx">
+	<a href="https://t.zsxq.com/osEYJ">
 	<img src="https://github.com/user-attachments/assets/d99af77d-3b0e-4d52-bec8-77240b90e0b0" alt="Linux内核模块编程指南" width="23%" style="max-width: 300px;">
 	</a>
 </div>
