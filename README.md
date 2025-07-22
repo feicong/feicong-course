@@ -14,7 +14,9 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 ## 非虫出版的图书
 
-点击图片跳转正版购买链接
+<details>
+ 
+<summary>点击图片跳转正版购买链接</summary>
 
 <div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
 	<a href="https://item.jd.com/11186337.html">
@@ -29,7 +31,13 @@ eBPF安全开发与攻防对抗系列（已完结）
 	</a>
 </div>
 
+</details>
+
 ## 非虫发布的电子书
+
+<details>
+ 
+<summary>点击图片跳转下载链接</summary>
 
 关注**软件安全与逆向分析知识星球置顶**，点击图片可以跳转即已发布，可星球下载，优先在视频课程中发布
 
@@ -77,6 +85,9 @@ eBPF安全开发与攻防对抗系列（已完结）
 	<img src="https://github.com/user-attachments/assets/f79aeb19-40bb-46bf-aaca-847eda18f55b" alt="x86_64汇编语⾔开发指南" width="23%" style="max-width: 300px;">
 	</a>
 </div>
+
+
+</details>
 
 
 ## 安卓动态分析沙箱技能宇宙
