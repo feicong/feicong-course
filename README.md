@@ -117,7 +117,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-![image](https://github.com/user-attachments/assets/215d6bf7-c4c1-49ec-a771-1bc7651f914f)
+<img width="2070" height="1720" alt="Frida源码情景分析系列课程 - 非虫" src="https://github.com/user-attachments/assets/507229c2-a2ac-43cd-bccd-0141679e5b8b" />
 
 </details>
 
@@ -137,7 +137,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程价格</summary>
 
-**全季1800，早鸟全季价格1099。限个人用户参与活动价格。**
+**全季1299。限个人用户参与活动价格。**
 
 </details>
 
@@ -338,8 +338,8 @@ eBPF程序类型之Socket过滤器
 <details>
 
 <summary>课程目录</summary>
- 
-<img width="1449" alt="安卓系统定制实战课程- 非虫" src="https://github.com/user-attachments/assets/c256d8ac-7c3e-4ac3-ac40-735ac6ae2d75">
+
+ <img width="1596" height="1757" alt="安卓系统定制实战课程- 非虫" src="https://github.com/user-attachments/assets/fe14cdbf-86c6-480f-ace8-849453b63c19" />
 
 </details>
 
