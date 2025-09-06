@@ -84,6 +84,9 @@ eBPF安全开发与攻防对抗系列（已完结）
 	<a href="xxxx">
 	<img src="https://github.com/user-attachments/assets/f79aeb19-40bb-46bf-aaca-847eda18f55b" alt="x86_64汇编语⾔开发指南" width="23%" style="max-width: 300px;">
 	</a>
+	<a href="https://t.zsxq.com/t8HnB">
+	<img src="https://github.com/user-attachments/assets/ca657c94-1e46-46d1-895e-881d67984ff7" alt="安全研究员系统配置指南" width="23%" style="max-width: 300px;">
+	</a>
 </div>
 
 
