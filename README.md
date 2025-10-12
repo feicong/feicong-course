@@ -110,7 +110,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-<img width="4308" height="8458" alt="image" src="https://github.com/user-attachments/assets/aa848dec-52ef-490b-abca-2dfff5735103" />
+<img width="4324" height="9008" alt="image" src="https://github.com/user-attachments/assets/e8ad5e43-df21-45d5-a08d-cf97e49d3705" />
 
 </details>
 
@@ -393,14 +393,6 @@ Frida源码情景分析（含第1、2、3季），全季价格**1299**元。
 <summary>设备购买</summary>
  
 全新开发板orangepi 5plus 32g+512g ssd+5v4a电源+外壳风扇+wifi网卡+网线与螺丝工具，以及配套的配置文档。价格**2165**元。
-
-全新开发板orangepi 5plus 16g+512g ssd+5v4a电源+外壳风扇+wifi网卡+网线与螺丝工具，以及配套的配置文档。价格**1665**元。
-
-全新开发板orangepi 5plus 16g+64g tf+5v4a电源+外壳风扇+wifi网卡+网线与螺丝工具，以及配套的配置文档。价格**1450**元。
-
-全新开发板orangepi 5max 16g+512g ssd+5v4a电源+外壳风扇+网线与螺丝工具，以及配套的配置文档。价格**1565**元。
-
-全新开发板orangepi 5max 16g+64g tf+5v4a电源+外壳风扇+网线与螺丝工具，以及配套的配置文档。价格**1350**元。
 
 </details>
 
