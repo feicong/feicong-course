@@ -110,7 +110,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>课程目录</summary>
 
-<img width="4324" height="9008" alt="image" src="https://github.com/user-attachments/assets/e8ad5e43-df21-45d5-a08d-cf97e49d3705" />
+<img width="4340" height="9168" alt="image" src="https://github.com/user-attachments/assets/f3d74e72-388e-4728-82da-48f206bd593e" />
 
 </details>
 
