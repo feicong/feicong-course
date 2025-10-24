@@ -365,7 +365,7 @@ eBPF程序类型之Socket过滤器
 
 ## 购买课程
 
-**目前开学季课程活，限直接联系本人微信feicongcn购买的学员，课程的播放需要微信绑定设备授权，支持Windows/macOS电脑与安卓/iOS设备播放**
+** 课程购买直接联系本人微信**feicongcn**购买，课程的播放需要微信绑定设备授权，支持Windows/macOS电脑与安卓/iOS设备播放**
 
 <details>
  
