@@ -1,3 +1,4 @@
+# Copyright (C) 2025-2026 fei_cong(https://github.com/feicong/feicong-course)
 cmake_minimum_required(VERSION 3.12)
 
 # 设置项目名称和支持的语言
