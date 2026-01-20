@@ -339,7 +339,7 @@ eBPF程序类型之Socket过滤器
 
 <summary>课程目录</summary>
 
-<img width="3192" height="3514" alt="image" src="https://github.com/user-attachments/assets/9f97f0d8-6bee-4d3d-bab1-ed4ea8e4b50a" />
+<img width="3216" height="3592" alt="image" src="https://github.com/user-attachments/assets/b20c5620-086f-4e98-8ed9-1062f9275991" />
 
 </details>
 
