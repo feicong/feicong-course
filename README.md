@@ -51,44 +51,25 @@ eBPF安全开发与攻防对抗系列（已完结）
 	<a href="https://t.zsxq.com/UzqWg">
 	<img src="https://github.com/user-attachments/assets/7379facb-e269-49c3-b9e9-e75ff84546d6" alt="Frida开发文档中文版" width="23%" style="max-width: 300px;">
 	</a>
-	<a href="https://t.zsxq.com/RC7YN">
-		<img src="https://github.com/user-attachments/assets/b6fe15bb-39e3-4c92-b429-44fdb19f2d2c" alt="PowerPC汇编语言开发指南" width="23%" style="max-width: 300px;">
-	</a>
-</div>
-
-<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
-	<a href="xxxx">
-		<img src="https://github.com/user-attachments/assets/220c1717-42aa-423f-94e3-3d84ab14e87c" alt="ARMv8汇编语言开发指南" width="23%" style="max-width: 300px;">
-	</a>
- 	<a href="xxxx">
-		<img src="https://github.com/user-attachments/assets/5d72ef65-07ce-4699-82cf-dfb7888a3fe9" alt="安卓数据结构与算法实战" width="23%" style="max-width: 300px;">
-	</a>
-	<a href="xxxx">
-		<img src="https://github.com/user-attachments/assets/391da4ce-5b50-408c-b6c6-9c85899ae48c" alt="RISC-V汇编语言开发指南" width="23%" style="max-width: 300px;">
-	</a>
-	<a href="https://t.zsxq.com/osEYJ">
-	<img src="https://github.com/user-attachments/assets/d99af77d-3b0e-4d52-bec8-77240b90e0b0" alt="Linux内核模块编程指南" width="23%" style="max-width: 300px;">
-	</a>
-</div>
-
-<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
-	<a href="xxxx">
-	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
-	</a>
-	<a href="xxxx">
-	<img src="xx" alt="x" width="23%" style="max-width: 300px;">
-	</a>
-	<a href="https://t.zsxq.com/4Ww2U">
-	<img src="https://github.com/user-attachments/assets/dacb2f14-b6d0-4c71-848c-375e25bb730f" alt="Stalker技术原理内幕" width="23%" style="max-width: 300px;">
-	</a>
-	<a href="https://t.zsxq.com/KWtyW">
-	<img src="https://github.com/user-attachments/assets/f79aeb19-40bb-46bf-aaca-847eda18f55b" alt="x86_64汇编语⾔开发指南" width="23%" style="max-width: 300px;">
-	</a>
 	<a href="https://t.zsxq.com/t8HnB">
 	<img src="https://github.com/user-attachments/assets/ca657c94-1e46-46d1-895e-881d67984ff7" alt="安全研究员系统配置指南" width="23%" style="max-width: 300px;">
 	</a>
 </div>
 
+<div align="center" style="display: flex; justify-content: space-between; max-width: 1200px;">
+	<a href="https://t.zsxq.com/4Ww2U">
+	<img src="https://github.com/user-attachments/assets/dacb2f14-b6d0-4c71-848c-375e25bb730f" alt="Stalker技术原理内幕" width="23%" style="max-width: 300px;">
+	</a>
+ 	<a href="xxxx">
+		<img src="https://github.com/user-attachments/assets/5d72ef65-07ce-4699-82cf-dfb7888a3fe9" alt="安卓数据结构与算法实战" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="https://t.zsxq.com/KWtyW">
+	<img src="https://github.com/user-attachments/assets/f79aeb19-40bb-46bf-aaca-847eda18f55b" alt="x86_64汇编语⾔开发指南" width="23%" style="max-width: 300px;">
+	</a>
+	<a href="https://t.zsxq.com/osEYJ">
+	<img src="https://github.com/user-attachments/assets/d99af77d-3b0e-4d52-bec8-77240b90e0b0" alt="Linux内核模块编程指南" width="23%" style="max-width: 300px;">
+	</a>
+</div>
 
 </details>
 
