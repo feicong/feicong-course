@@ -177,7 +177,7 @@ eBPF系列课程尽可能全面的探索eBPF功能与特性。
  
 <summary>eBPF课程目录</summary>
 
-<img width="4058" height="5924" alt="image" src="https://github.com/user-attachments/assets/efcf228c-1483-45ab-a824-18e5bb48145e" />
+<img width="4474" height="10818" alt="image" src="https://github.com/user-attachments/assets/d654c70f-f7a8-4acc-9809-3442a50880ad" />
 
 </details>
  
