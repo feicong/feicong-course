@@ -86,14 +86,10 @@ eBPF安全开发与攻防对抗系列（已完结）
 </details>
 
 ## 安卓软件开发与逆向分析
-
-<details>
  
-<summary>课程目录</summary>
+课程目录
 
 <img width="4464" height="10818" alt="image" src="https://github.com/user-attachments/assets/e42d11ca-9967-4f66-9cc9-097b7788ec98" />
-
-</details>
 
 ## Frida源码情景分析
 
