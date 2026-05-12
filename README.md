@@ -89,7 +89,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 课程目录
 
-<img width="4464" height="10818" alt="image" src="https://github.com/user-attachments/assets/e42d11ca-9967-4f66-9cc9-097b7788ec98" />
+<img width="4464" height="10818" alt="image" src="https://github.com/user-attachments/assets/5bb96812-798d-4246-894f-b28400017cc1" />
 
 ## Frida源码情景分析
 
