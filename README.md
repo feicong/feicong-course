@@ -80,7 +80,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 <summary>技能宇宙</summary>
 
-<img width="3412" height="1566" alt="image" src="https://github.com/user-attachments/assets/dc3e59c4-ebac-4bcc-a448-7fb12d7c1921" />
+<img width="3452" height="1704" alt="image" src="https://github.com/user-attachments/assets/00b04869-8f89-4da6-81be-11f95fa6a2e0" />
 
 </details>
 
