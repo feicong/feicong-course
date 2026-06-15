@@ -74,14 +74,14 @@ eBPF安全开发与攻防对抗系列（已完结）
 </details>
 
 
-## 安卓动态分析沙箱技能宇宙
+## 木鱼动态分析沙箱技能宇宙
 
 
 <details>
  
 <summary>技能宇宙</summary>
 
-<img width="1433" alt="安卓动态分析沙箱技能宇宙" src="https://github.com/user-attachments/assets/ca27f8bd-a9be-44db-92b9-cc015adf191f">
+<img width="3412" height="1566" alt="image" src="https://github.com/user-attachments/assets/dc3e59c4-ebac-4bcc-a448-7fb12d7c1921" />
 
 </details>
 
