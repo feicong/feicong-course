@@ -76,7 +76,6 @@ eBPF安全开发与攻防对抗系列（已完结）
 
 ## 木鱼动态分析沙箱技能宇宙
 
-
 <details>
  
 <summary>技能宇宙</summary>
@@ -89,7 +88,7 @@ eBPF安全开发与攻防对抗系列（已完结）
  
 课程目录
 
-<img width="4464" height="10818" alt="image" src="https://github.com/user-attachments/assets/5bb96812-798d-4246-894f-b28400017cc1" />
+<img width="4478" height="10818" alt="image" src="https://github.com/user-attachments/assets/eb9d2a2b-6fa1-4990-9e30-74032310d5c9" />
 
 ## Frida源码情景分析
 
